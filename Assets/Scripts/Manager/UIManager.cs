@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 // ReSharper disable All
 #pragma warning disable CS0169
 #pragma warning disable CS0414
@@ -30,6 +31,6 @@ namespace Manager
         {
             CreateLevel.Instance.RandomImage();
         }
+        
     }
-
 }
